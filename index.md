@@ -1,37 +1,103 @@
-## Welcome to GitHub Pages
+## Welcome to Transformers
 
-You can use the [editor on GitHub](https://github.com/jamescalam/transformers/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This is the documentation site of the Transformers course for modern-day NLP - a WIP.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+One day (hopefully sooner rather than later), you will be able to find explanations through articles and visuals that will guide the beginner practitioner through the wonderful world of transformers models for language application.
 
-### Markdown
+If you're interested in keeping up-to date with any updates, you can find me on:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[Medium](https://jamescalam.medium.com)
 
-```markdown
-Syntax highlighted code block
+[Twitter](https://twitter.com/jamescalam)
 
-# Header 1
-## Header 2
-### Header 3
+[YouTube](https://youtube.com/c/JamesBriggs)
 
-- Bulleted
-- List
+For now, I will leave this rough outline for how I'm expecting this to pan out:
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jamescalam/transformers/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+├── Before Transformers
+│   ├── RNNs
+│   ├── LSTMs and GRUs
+│   ├── Information Bottleneck
+│   ├── Attention
+│   └── Attention Is All You Need
+│
+├── Attention
+│   ├── An Overview (incl. where is has led to)
+│   ├── Dot-Product Attention (in Numpy - same for next 3)
+│   ├── Causal Attention
+│   ├── Bidirectional Attention
+│   └── Multi-head Attention
+│
+├── Preprocessing
+│   ├── Why Text Needs Cleaning
+│   ├── Stemming
+│   ├── Lemmazation
+│   ├── Normalization
+│   └── Tokenization
+│
+├── Encoding
+│   ├── One Hot
+│   ├── Word2Vec
+│   ├── SentencePiece
+│   └── Byte Piece Encoding (BPE)
+│
+├── Decoding
+│   ├── Greedy Decoding
+│   ├── Random Sampling
+│   ├── Beam Search
+│   └── MBR
+│
+├── Machine Translation
+│   ├── From RNNs to Transformers (short overview/timeline)
+│   ├── Attention in Translation
+│   ├── Pretrained Translation Transformer
+│   ├── Prediction
+│   ├── Performance With ROUGE
+│   └── Building a Custom Translator
+│
+├── Language Classification
+│   ├── Classification in ML
+│   ├── Sentiment Analysis Overview
+│   ├── Sentiment With Flair
+│   ├── Pretrained Classifier with Transformers
+│   ├── Fine-tuning
+│   ├── Making Predictions
+│   └── Performance Metrics
+│
+├── Automatic Summarization
+│   ├── ???
+│   └── Performance With ROUGE
+│
+├── Language Generation
+│   ├── Overview and GPT-3
+│   ├── ???
+│   ├── Autocompletion
+│   └── Performance With ROUGE
+│
+├── Question-Answering
+│   ├── QA Overview
+│   ├── Open Book
+│   ├── Closed Book
+│   ├── SQuAD
+│   ├── Pretrained QA with Transformers
+│   ├── Fine-tuning
+│   ├── Making Predictions
+│   └── Performance Metrics
+│
+├── FAISS and DPR
+│   ├── What is FAISS?
+│   ├── DPR
+│   ├── Similarity Search Architecture With FAISS + DPR
+│   ├── Formatting Data for Haystack
+│   ├── Indexing Using FAISS
+│   └── Similarity Search
+│
+├── Question-Answering For Tables
+│   ├── ???
+│   └── ???
+│
+└── Chatbots
+    ├── ???
+    └── ???
+```
