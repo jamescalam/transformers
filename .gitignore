@@ -2,6 +2,9 @@
 recordings/
 working/
 
+# numpy binaries can be large so don't include
+*.npy
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
