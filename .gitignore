@@ -1,3 +1,6 @@
+# don't include actual course recordings/files
+recordings/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
