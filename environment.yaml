@@ -1,4 +1,4 @@
-name: ml_test
+name: ml
 channels:
   - pytorch
   - conda-forge
@@ -398,4 +398,4 @@ dependencies:
     - wasabi==0.8.2
     - websocket-client==1.0.1
     - werkzeug==0.16.1
-prefix: C:\ProgramData\Anaconda3\envs\ml_test
+prefix: C:\ProgramData\Anaconda3\envs\ml
