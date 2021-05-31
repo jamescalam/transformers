@@ -36,7 +36,7 @@ Install the [Anaconda distribution](https://www.anaconda.com/products/individual
 
 ## Enable GPU
 
-If you have a CUDA enabled GPU, you can take advantage of GPU acceleration. If you already have CUDA installed, skip steps TK-TK.
+If you have a CUDA enabled GPU, you can take advantage of GPU acceleration. If you already have CUDA installed, skip steps 1-3.
 
 1. Install a NVIDIA GPU driver from [here](https://www.nvidia.com/download/index.aspx?lang=en-us).
 
