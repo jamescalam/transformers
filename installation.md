@@ -24,6 +24,8 @@ Install the [Anaconda distribution](https://www.anaconda.com/products/individual
 
 4. Write `pip install -r requirements.txt`.
 
+5. Move onto the **Installation of PyTorch** section.
+
 ## Installation of PyTorch
 
 1. Open the [PyTorch installation page](https://pytorch.org/get-started/locally/).
