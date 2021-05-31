@@ -47,3 +47,13 @@ If you have a CUDA enabled GPU, you can take advantage of GPU acceleration. If y
 4. Confirm installation by writing `nvcc --version` in *Anaconda prompt*, the CUDA version should appear (such as *cuda_11.1*).
 
 5. Once complete, install PyTorch using instructions in **Installation of PyTorch** section above.
+
+## Adding to Jupyter
+
+Once your environment is setup, it can be added as a kernel to Jupyter lab/notebook by:
+
+1. In *Anaconda prompt* write `conda active ml`.
+
+2. Then write `python -m ipykernel install --user --name ml --display-name "ML"`
+
+3. The kernel has been installed, switch back to *base* with `conda activate base` then open Jupyter with `jupyter lab`/`jupyter notebook`.
