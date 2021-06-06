@@ -1,6 +1,5 @@
 name: ml
 channels:
-  - pytorch
   - conda-forge
   - defaults
 dependencies:
@@ -263,7 +262,6 @@ dependencies:
   - tk=8.6.10=he774522_0
   - toml=0.10.1=py_0
   - toolz=0.11.1=py_0
-  - torchaudio=0.8.1=py38
   - tornado=6.0.4=py38he774522_1
   - tqdm=4.50.2=py_0
   - traitlets=5.0.5=py_0
@@ -387,8 +385,6 @@ dependencies:
     - thinc==8.0.3
     - tika==1.24
     - tokenizers==0.9.4
-    - torch==1.8.1+cu111
-    - torchvision==0.9.1+cu111
     - tox==3.23.1
     - transformers==4.1.1
     - typer==0.3.2
