@@ -11,5 +11,5 @@ sentence-transformers==1.1.0
 spacy==3.0.6
 spacy-transformers==1.0.2
 flair==0.8
-tensorflow==2.5.1
+tensorflow==2.11.1
 ipykernel==5.5.5
