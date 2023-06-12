@@ -6,7 +6,7 @@ numpy==1.19.2
 pandas==1.1.5
 rouge==1.0.0
 seaborn==0.11.1
-transformers==4.1.1
+transformers==4.30.0
 sentence-transformers==1.1.0
 spacy==3.0.6
 spacy-transformers==1.0.2
